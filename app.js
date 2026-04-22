@@ -5,7 +5,7 @@ const path = require('path');
 const Anichin = require('./anichin');
 
 const app = express();
-const ani = new Anichin("https://anichin.moe");
+const ani = new Anichin();
 
 app.use(cors());
 app.use(morgan('dev'));
