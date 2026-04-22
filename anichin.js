@@ -2,7 +2,7 @@ const axios = require("axios")
 const cheerio = require("cheerio")
 
 class Anichin {
-  constructor(baseUrl = "https://anichin.cafe") {
+  constructor(baseUrl = "https://anichin.moe") {
     this.baseUrl = baseUrl.replace(/\/+$/, "")
     this.client = axios.create({
       baseURL: this.baseUrl,
